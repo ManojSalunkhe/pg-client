@@ -1,0 +1,21 @@
+.sidebar{
+    background-color: #F4F5F7;
+    width: 250px;
+    height: 100vh;
+}
+
+.list >hr{   
+    width: 160px;
+    height: 2px;
+    border: none;
+    background-color: #eee;
+}
+
+.list >li {
+    font-size: 20px;
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px 0px 10px 20px;
+}
+

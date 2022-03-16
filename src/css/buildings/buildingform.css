@@ -1,0 +1,98 @@
+.buildingform-header{
+    display: flex;
+}
+
+.buildingform-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40vw;
+    height: 70vh;
+    box-shadow: 2px 2px 5px 1px #ced4da;
+    border-radius: 20px;
+}
+.buildingform-container>h2 {
+    color: #495057;
+}
+
+.buildingform{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.buildingform-gender{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.buildingform-gender > div{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.buildingform-input{
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.buildingform-input:focus{
+    outline-color: #0062cc;
+}
+
+.buildingform > button{
+    width: 150px;
+    height: 35px;
+    background-color:#0062cc;
+    color: #f0f3f6;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    position: relative;
+    left:470px;
+}
+
+.buildingform >button:hover{
+    background-color: rgb(0,0,0,1);
+    cursor: pointer;
+}
+.buildingformpreview-container{
+    margin-top: 20px;
+    margin-left: 90px;
+    box-shadow: 2px 2px 5px 1px #ced4da;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.buildingformpreview-container >h2{
+    text-align: center;
+    color: #495057;
+}
+
+.buildingformpreview-container> div>img{
+    margin-top: 20px;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 30%;
+}
+
+.buildingformpreview{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.buildingformpreview-input{
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}

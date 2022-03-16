@@ -1,0 +1,30 @@
+.topbar{  
+    background-color: #F4F5F7;
+    display: flex;
+    column-gap: 10px;
+    position:sticky;
+    left:0px;
+    top: 0px;
+    overflow-y: scroll;
+}
+
+.topbar .firstDiv{
+    background-color: black;
+    width: 250px;
+}
+
+.imgTag{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.lighter-font{
+    font-weight: normal;
+    color: #8D8D8D;
+}
+
+.user-name{
+    color: black;
+}
+
+
